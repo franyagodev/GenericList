@@ -1,0 +1,24 @@
+# About this repo
+
+## Principles of basic clean code has been applied here (under my criteria, always there is a place to improve..):
+- Encapsulation: Implementation details are hidden, methods are exposed to avoid usage of attributes, some methods are private because they only need to be know inside the class
+- Open-close: Generic List: Open to extend, ready for use on different object types T
+- Yagni : Not adding all get/set or others methods that I didn't find useful at the time of implementation
+- Respecting  java community naming conventions
+- DRY don't repeat yourself. Using private methods or other methods inside a class
+
+
+## What is a GenericList?
+
+I assume you know what is the conecpt of a list. For example, a number of people waiting for something, to buy a ticket
+
+This is a FIFO, first in, first out. B
+
+nodeIndex points to the first inserted node
+nodeTail points to the latest inserted node
+
+This is a list that can be filled with generic Nodes. BUT, with the current solution all nodes should be created with the same TYPE T
+The list is an object that contains another objetc by composition (First created node, index node). This first node points to the next one... but also I added a previous pointer to facilitate insertion and deletion, O(1) instead of O(n)
+
+Each node contains a piece of information. See class Node src/main/java/org/basics/Node.java
+
