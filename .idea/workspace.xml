@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39da6241-a7a4-49f6-b5bb-5efff89d9117" name="Changes" comment="">
+    <list default="true" id="39da6241-a7a4-49f6-b5bb-5efff89d9117" name="Changes" comment="Refactoring, adding more methods (delete), bug fixing">
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/list_evolution.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/read.me" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/basics/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basics/GenericList.java" afterDir="false" />
@@ -88,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670013524143</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactoring, adding more methods (delete), bug fixing">
+      <created>1670438581574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670438581574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,17 +110,21 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring, adding more methods (delete), bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring, adding more methods (delete), bug fixing" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/basics/GenericList.java</url>
-          <line>76</line>
+          <line>75</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/basics/Main.java</url>
-          <line>24</line>
+          <line>22</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
